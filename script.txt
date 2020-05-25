@@ -1,0 +1,103 @@
+Title page 1: 
+First, I would like to thank the organizers for the invitation to give a talk in this nice conference and in this beautiful campus with some many good memories. This was the title that the organizers gave it to me. After knowing what Stefan and Saso talk about, I just felt that I need to modify the title a little bit in order to be complementary to their talks.
+
+Title page 2:
+Now, I am going to talk about "Kinetic Transport & Inner Workings of QGP"
+
+
+# if there are several slides corresponding to the same slide number, I order them using a, b, ... 
+
+The title page for Section I:
+In order to learn more about the inner workings of QGP, one needs to go beyond hydrodynamics.
+
+
+Slide 1a:
+Undoubtedly hydrodynamics has been very successful in describing experimental data.
+
+
+Slide 1b:
+
+Our focus is to probe the inner workings of the QGP produced in pp, pA and AA collisions. It actually lies beyond hydrodynamics.
+
+Slide 2:
+What I meant is the following two trivial statements. QFTs contain hydrodynamics, in the sense that hydrodynamics can be taken as an effective theory of underlying QFTs. In the same sense, QFTs are more than hydrodynamics. Moreover, different QFTs go beyond hydrodynamics in different ways. For example, one can study hydro and non-hydro modes using AdS/CFT, as Saso has just told us. Another example is QCD.
+
+Since the energy-momentum tensor is more relevant for the discussion of hydrodynamics, it is convenient to use the retarded correlation function for the energy-momentum tensor to discuss hydro and non-hydrodyanmic modes. It is defined in this equation down here. it contains both hydrodynamic and non-hydrodynamic poles. 
+
+In AdS/CFT, as Saso just told us, in momentum space it has both hydro and nonhydro pole below the real axis in the complex omega plane. For QGP in QCD, we don't know much yet except the existence of the hydro pole. The calculation from QCD first-principles is still out of the question. What can we do?
+
+Slide 3:
+This question can be answered by the strategy as illustrated in this figure. When one goes from AA collisions, to pA and pp collisions, one decreases the size of the produced bulk matter. To be more precise, one decreases its opacity. Physics, now, is more sensitive to non-hydrodynamic modes. By confronting theoretical calculations with experimental data, one can in principle pin down the non-hydrodynamic structure down here besides the hydro pole. Why the physics is more sensitive to non-hydro dynamic modes?
+
+Slide 4:
+This is because parametrically k is inversely proportional to R, the system size. As illustrated in this figure, when one decreases R, this hydro pole goes further down along the negative imaginary axis. When it approaches to the non-hydrodynamic structure here, the hydrodynamic part of the retarded green function in time starts to become less important than the non-hydrodynamic part. This is a general argument whatever the non-hydrodynamic structure is here.
+
+Title page for Section II:
+Next, I will show you how the strategy works using a conformal kinetic transport theory, or CKT for short.
+
+Slide 5a:
+By hydro, I mean the modes that correspond to the hydro pole.
+
+Slide 5b:
+In this sense, the Israel-Steward[ˈstuərd] hydro is not only hydro because the retarded green function has a non-hydrodynamic pole down here. Its location, 1/\tau_\pi, can be determined only by the corresponding underlying theory, not IS hydro itself.
+
+Slide 6:
+What if one replace the non-hydro pole in IS hydro by a branch cut? This is corresponds to the analytic structure of kinetic transport in ITA. In this CTK, one can calculate the transport coefficients and \tau_\pi. By taking these quantities, the IS hydro and the CKT have identical hydro pole. The only difference is that the non-hydro pole in IS hydro is replaced by a branch cut.
+
+Slide 7:
+How much different can it make? This can be answered by the approach as illustrated in the bottom figure. The two theories have identical hydrodynamic sector. By switching from CKT to IS hydro at \tau=\tau_s, one can manipulate the amount of the non-hydrodynamic contribution from IS hydro.
+
+Slide 8:
+We calculated v_2/epsilon_2 in this way. The result is shown in this figure. The black curve is the result of the kinetic theory. Different dashed curves here correspond to the results with different switching time using the approach in the previous slide. Here, one can clearly see the sensitivity to the switching time, hence non-hydro modes, increases as one decrease the opacity, gamma hat here, which is given by the ration between R and the mean free path at initial time. 
+
+Slide 9:
+This can be easily understood by the parametric argument. As we have seen before, the hydro part of the retarded correlation function becomes less important in small systems. The non-hydro part is proportional to an exponential function with exponent equal to -tau/tau_\pi. So if one decreases energy, one increases tau_\pi and hence enhances the non-hydrodynamic contribution. That is, non-hydro modes are enhanced in small or dilute systems, which have a small \hat{\gamma}. 
+
+Slide 10:
+Let us understand better the contribution from non-hydro modes. In the \hat{gamma}\to 0 limit, the non-hydro modes give the predominant contribution. In this case, one can calculate $v_n$ from nonlinear mode-mode couplings by including only single final-state scattering.
+
+Slide 11:
+I would like to emphasize the qualitatively different physical picture that leads to flow in small systems. Here, I only take $v_2$ as an example. The standard hydrodynamic picture is shown in the upper part of the figure. Let us focus on the lower part of the figure. Imagine that at the initial time the transverse momentum distribution is isotropic but there is a spatial anisotropy such that there are more particles that locate at y = \pm R. Let us focus on two particles separated by a distance $2R$ along the y axis, which are moving towards the center. At time $t\sim 2R$, these two particles encounter at the center and scatter with each other. As a result, their transverse momenta are redistributed and there is a chance that they start to move along the x-axis. This increases the number of particles moving along the \pm x-axis. This is how $v_2$ is built up in small systems. This picture should be universal because, e.g., in these papers, their results can be understood in the same way. Therefore, in small systems flow is a signal of final-state interaction, not of hydro.
+
+Slide 12:
+Let us compare this one-hit result with our numerical results. From this figure, one can see that that non-hydro modes are more efficient to build up $v_2$ in small or dilute systems, that is, in the gamma hat goes to zero limit.
+
+Title page 3:
+How can one qualify how much fluid a system is?
+
+Slide 13:
+One answer to this question is to use the so-called ''fluid quality'' Q and a system is taken to be hydro-like if Q<0.1. Q is defined by this formula. Basically, it is the relative difference between the energy-momentum tensor in CKT and that in hydrodynamics. By hydrodynamics, I mean that correspond purely the hydro pole in the retarded green function. Here, we only quote the hydrodynamic T^\mu\nu up to second order in the gradient expansion.
+
+Slide 14:
+Let us first calculate Q using the 1st order hydro. Here, I show the contour plots in (t, r) for R = 1, 2, 4, 8 times the mean free path. The only thing you need to know here is that the blue regions are hydro-like while the yellow regions are not hydro-like, that is, particle-like. It is not a suppress that for R\gtrsim 4 l_mpf, there are huge hydro-like regions. It is a surprise that there are still small blue regions even for R \lesssim 2 l_mpf.
+
+Doet it mean that for a system as small as R = 2 lmpf we still have a fluid? 
+
+The answer is NO. This is because of the following observations. The plots in the bottom show Q calculated by using the 2nd hydro.
+
+From these plots, we can see that for $\hat{\gamma}\gtrsim 4$, the hydro hydro-like regions are stable while for $\hat{\gamma}\lesssim 2$ it is quite opposite. The hydro-like regions are unstable in gradient expansion. This is how we arrive at the conclusion that the system is hydro-like if R \gtrsim 4 l_mpf while it is particle-like if R \lesssim 2 l_mfp.
+
+Slide 15:
+Accordingly, we conclude that for $\hat\gamma \gtrsim 4$, the elliptic flow is of hydro origin while for $\hat\gamma\lesssim2$, it is mainly due to the final-state interactions among particles as I described in the non-hydro physical picture.
+
+Title page 4:
+At the end, let us use this one parameter model to see whether one can give a reasonable description of experimental data.
+
+Slide 16:
+This plot shows our theoretical result in comparison with Alice' measurement of v_2. The gray error band of our theoretical result is mainly due to the uncertainties introduced by the eccentricity epslion_2 in this paper. The red dots are ALICE' measurement. I think it is fair to say that the agreement is reasonably good. Please goes back in time to listen to Urs' talk for details about how we did it.
+
+I have talked about opacity \hat{\gamma} several time. Here, I give you its definition as shown in this equation. It can be rewritten in terms of experimental measurement, dE_\perp/deta, the geometrical information R, the transport coefficient eta/s and theoretical calculable quanlity f_work here.
+
+As we discussed in the one-hit calculation, v2/epsilon_2 is linear in gamma hat, which means it is proportional to the 1/4th power of the multiplicity, this is qualitatively different from many other predictions.
+
+Slide 17:
+$v_2$ only gives a loose constraint on $\eta/s$ in this kinetic theory. Given the measure dE_\perp/d\eta_s and the geometry information calculated from the Glauber model, we can calculate \hat{\gamma} as a function of centrality and \eta/s.
+
+This figure show \hat{\gamma} centrality for a given value of eta/s. Based on our previous discussion about fluid quality, one can conclude that bulk matter in central AA collsions is mostly a fluid while bulk matter in peripheral collision is not hydro-like. 
+
+Slide 18:
+Similarly, from this 
+In pA collsions, as shown in this figure, bulk matter is mostly not hydro-like, that is, particle-like in this kinetic theory .
+
+In conclusion: just read out from the slides.
+
