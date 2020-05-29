@@ -1,0 +1,175 @@
+\documentclass[onecolumn,showpacs,nobibnotes,nofootinbib,12pt]{revtex4-1}
+\usepackage{amsmath,amssymb}
+\usepackage{wasysym}
+\usepackage{slashed}
+\usepackage{graphicx}
+\usepackage{pdfcomment}
+%
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\endp{eqnarray}}
+\newcommand{\f}{\frac}
+\newcommand{\dr}{\partial_r}
+\newcommand{\nn}{\nonumber}
+\newcommand{\rd}{\right.}
+\newcommand{\ld}{\left.}
+\newcommand{\RE}{\mathbf{Re}~}
+\newcommand{\Tr}{\mathbf{Tr}~}
+\newcommand{\xT}{{x_{\perp}}}
+\newcommand{\bra}{\langle}
+\newcommand{\ket}{\rangle}
+\newcommand{\D}{\triangledown}
+\newcommand{\ri}{{\bf r}}
+
+\begin{document}
+\title{System-size dependence of bottom-up thermalization}
+\maketitle
+\section{Review of bottom-up thermailzaiton in large systems}
+\subsection{Definition of quantites}
+The Debey mass $m_D^2 \sim \alpha_s \int d^3 p f(p)/p$, which gives the cross section for $2\Leftrightarrow2$ scattering by $\sigma\sim \alpha_s^2/m_D^2$. The broadening of parton at small angle can be estimated by $\hat{q}\sim\alpha_s^2\int d^3p f(1+f)$. Note that the estimate $\hat{q}\sim m_D^2/\lambda \sim \alpha_s^2\rho$ is not always correct for number density $\rho$. The typical radiative energy loss is $\Delta E\sim \alpha_s^2 \hat{q}t^2$. The basic picture is that there are initially only hard gluons with $p\sim Q_s$ at $\tau\sim 1/Q_s$. The hard partons radiate and hence generate soft gluons. Soft gluons can thermalize quickly. Then, it becomes an energy loss problem. After the hard gluons lose all their energy to the soft section, the whole system established thermal equilibrium and hence hydrodynamizes.
+
+\subsection{Very early stage: an over-occupied system $\alpha_s^{-\frac{3}{2}}\gtrsim \tau Q_s \gtrsim 1$}
+%
+Now let us start with a system produced at $\tau\sim 1/Q_s$ with a distrition $f\sim 1/\alpha_s$. At this moment, one has $p_\perp\sim Q\sim p_z$. Before the inelasticl scattering  plays an more important role, one can only consider elastical scattering. This implies the number density of  hard gluons at a later time is given by
+\begin{eqnarray}
+  N_h\sim \frac{1}{\alpha_s}\frac{Q_s^3}{Q_s\tau}.
+\end{eqnarray}
+From this, one has
+\begin{eqnarray}
+  f_h\sim \frac{N_h}{p_\perp^2 p_z}\sim \frac{1}{\alpha_s}\frac{1}{p_z \tau},
+\end{eqnarray}
+and the Debey mass
+\begin{eqnarray}
+  m_D^2\sim \alpha_s \int d^3p \frac{f}{p}\sim \alpha_s \frac{N_h}{Q_s}\sim \frac{Q_s^2}{\tau Q_s}.
+\end{eqnarray}
+This gives the typical momentum transfer between the scattering among the hard gluons and, accordingly, the cross section  is given by
+\begin{eqnarray}
+  \sigma\sim \frac{\alpha_s^2}{m_D^2}\sim \alpha_s^2 \tau/Q_s.
+\end{eqnarray}
+From this, one can estimate $\hat{q}$
+\begin{eqnarray}
+  \hat{q}\sim \alpha_s^2 N_h f\sim \alpha_s^2 \frac{1}{\alpha_s} \frac{Q_s^2}{\tau} \frac{1}{\alpha_s}\frac{1}{p_z \tau}\sim \frac{Q_s^2}{p_z \tau^2}.
+\end{eqnarray}
+As a result, we have
+\begin{eqnarray}
+p_z^2=\hat{q}\tau\sim \frac{Q_s^2}{p_z \tau}\Leftrightarrow p_z\sim Q_s (Q_s\tau)^{-\frac{1}{3}}.
+\end{eqnarray}
+Then,
+\begin{eqnarray}
+f\sim \frac{1}{\alpha_s}\frac{1}{(\tau Q_s)^\frac{2}{3}},
+\end{eqnarray}
+and
+and
+\begin{eqnarray}
+\hat{q}\sim \frac{Q_s^3}{(\tau Q_s)^{\frac{5}{3}}}.
+\end{eqnarray}
+
+
+When two hard gluons scatter, they also radiate. One can estimate the number of produced soft gluons from binary collisions among the hard gluons:
+\begin{eqnarray}
+N_s\sim \tau \sigma N_h^2 (1+f_h)^2 \alpha_s \sim \tau \sigma N_h^2 f_h^2 \alpha_s\sim \frac{Q_s^3}{\alpha (\tau Q_s)^\frac{4}{3}}.
+\end{eqnarray}
+That is, in early stage one has
+\begin{eqnarray}
+\frac{Q_s^3}{\alpha_s}\gtrsim N_s \gtrsim \alpha_s Q_s^3.
+\end{eqnarray}
+
+\subsection{Setting up the stage for thermailzation: $\alpha_s^{-\frac{5}{2}}\gtrsim \tau Q_s \gtrsim \alpha_s^{-\frac{3}{2}}$}
+Now, we still have
+\begin{align}
+N_h\sim \frac{Q_s^2}{\alpha_s\tau},\qquad f\sim\frac{1}{\alpha_s\tau p_z}.
+\end{align}
+Then,
+\begin{align}
+\hat{q}\sim \alpha_s^2 N_h\sim \alpha_s\frac{Q_s^2}{\tau},
+\end{align}
+and
+\begin{align}
+  p_z\sim \alpha_s^\frac{1}{2} Q_s,\qquad f\sim \frac{1}{\alpha^\frac{3}{2}\tau Q_s}.
+\end{align}
+The contribution to $m_D$ from hard gluons does not change and, if we ignore the contribution from soft gluons, 
+\begin{eqnarray}
+N_s\sim \tau \sigma N_h^2 \alpha_s \sim \tau \frac{\alpha_s^3}{m_D^2} N_h^2\sim \alpha_s Q_s^3.
+\end{eqnarray}
+For a consistent check, let us calculate the contribution to $m_D$ from soft distribution
+\begin{align}
+  m_D^2\sim \frac{\alpha_s N_s}{k_s}\sim \alpha_s^\frac{3}{2} Q_s^2,
+\end{align}
+which is larger than the contribution from hard gluons. So, it is incorrect and we need to solve $N_s$ self-consistently, that is,
+\begin{eqnarray}
+N_s\sim \tau \frac{\alpha_s^3}{m_D^2} N_h^2 \sim \tau\frac{\alpha_s^3}{\frac{\alpha_s N_s}{p_z}} N_h^2,
+\end{eqnarray}
+which gives
+\begin{align}
+  N_s= \frac{\alpha^{\frac{1}{4}}Q_s^3}{(\tau Q_s)^{\frac{1}{2}}}, \qquad m_D^2\sim \alpha_s^\frac{3}{4} Q_s^2/\tau^{\frac{1}{2}},
+\end{align}
+and
+\begin{align}
+  f_s= \frac{1}{\alpha^{\frac{5}{4}}(\tau Q_s)^{\frac{1}{2}}}.
+\end{align}
+The ratio of number densities of soft and hard gluons is
+\begin{align}
+  \frac{N_s}{N_h}\sim \alpha_s^{\frac{5}{4}} (\tau Q_s)^{\frac{1}{2}}.
+\end{align}
+Now, the energy density of soft gluons is
+\begin{align}
+  \varepsilon_s\sim \frac{\alpha_s^{\frac{3}{4}}Q_s^4}{(\tau Q_s)^{\frac{1}{2}}}
+\end{align}
+Can soft gluons thermalize? Let us assue they do. Then, one has
+\begin{align}
+  T\sim \frac{\alpha_s^{\frac{3}{16}}Q_s}{(\tau Q_s)^{\frac{1}{8}}},
+\end{align}
+and
+\begin{align}
+  \frac{T^3}{N_s}\sim \frac{\alpha_s^{\frac{9}{16}}Q_s^3}{(\tau Q_s)^{\frac{3}{8}} N_s}\sim{\alpha_s^{\frac{5}{16}}}{(\tau Q_s)^{\frac{1}{8}}}.
+\end{align}
+There are more soft gluons than needed for $\tau Q_s\lesssim \alpha_s^{-\frac{5}{2}}$
+Then, the thermalization time is
+\begin{align}
+  t_{\text{th}}\sim \frac{1}{\alpha_s^2 T}\sim  \frac{(\tau Q_s)^{\frac{1}{8}}}{\alpha_s^{\frac{35}{16}}Q_s}.
+\end{align}
+When $t_{\text{th}}\gtrsim \tau$, that is, $\tau Q_s \lesssim \alpha_s^{-\frac{5}{2}}$, soft gluons can not establish thermal equilibration.
+
+In summary, during $\alpha_s^{-\frac{5}{2}}\gtrsim\tau Q_s\gtrsim \alpha_s^{-\frac{3}{2}}$ soft gluons, more dilute than the hard ones, contribute dominatedly to $m_D$ and they can not establish thermal equilibriation.
+
+What about the energy loss from LPM effects? The energy loss is given by
+\begin{align}
+	\varepsilon_{\text{loss}}\sim N_h \alpha_s^2 \hat{q} \tau^2\sim \alpha_s^4 N_h^2 \tau^2\sim  \alpha_s^2 Q_s^4.
+\end{align}
+This is always parametrically smaller than $\varepsilon_s$ until $\tau Q_s \sim \alpha_s^{-\frac{5}{2}}$.
+
+\subsection{Heating up soft gluons at $\tau Q_s\gtrsim\alpha_s^{-\frac{5}{2}}$}
+For $\tau Q_s\gtrsim\alpha_s^{-\frac{5}{2}}$, $N_s$ becomes larger than $N_h$. Therefore, $\hat{q}$ should be predominantly given by soft gluons. Moreover, this is also the moment when soft gluons can thermalize since $t_{\text{th}}\sim \tau$. As a result, 
+\begin{align}
+\hat{q}\sim \alpha_s^2 T^3,\qquad \varepsilon_{\text{loss}}\sim T^4\sim  \alpha_s^3 T^3 Q_s^2 \tau,\qquad T\sim  \alpha_s^3 Q_s^2 \tau,\qquad p_z\sim \alpha_s^{\frac{11}{2}} Q_s (Q_s\tau)^2.
+\end{align}
+Then, thermalization is completed when
+\begin{align}
+Q_s N_h\sim\varepsilon_{\text{loss}}\sim N_h \alpha_s^2 \hat{q} \tau^2,
+\end{align}
+which gives
+\begin{align}
+\tau Q_s\sim \alpha_s^{-\frac{13}{5}}.
+\end{align}
+
+\section{System-size dependence}
+
+Obviously, the bottom-up thermalzation is valid when the system size $R$ is parametrically larger than $1/(\alpha_s^{-13/5}Q_s)$. In this section, we shall address whether the system can establish thermal equilibration when $R \lesssim 1/(\alpha_s^{-13/5}Q_s)$
+
+\subsection{ $\alpha_s^{-13/5}\gtrsim R Q_s\gtrsim \alpha_s^{-5/2}$}
+What is modified now is that when $\tau\sim R$, the expansion in the transverse plan starts to contribute to the rarefaction of the numbers of hard gluons at the centre.  From the free-streaming solution, one can expect that a complete depletion of hard gluons occurs at $\tau\sim R$. Afterwards, the hard gluons all fly away from the centre and leave behind a thermalized bath of soft gluons. At $\tau\sim R$, 
+\begin{eqnarray}
+	m_D\sim Q_s^2 R \alpha_s^{7/2},\qquad N_s \sim T^3\sim \alpha_s^9 R^3 Q_s^6, 
+\end{eqnarray}
+And the energy fraction left behind is
+\begin{align}
+1\gtrsim\delta_\varepsilon\sim T^4/(Q_s N_h)\sim (R Q_s)^5 \alpha_s^{13} \gtrsim \alpha_s^{-1/2}.
+\end{align}
+Then, one interesting question is whether the soft gluons can maintain thermal equilibrium among themselves. To answer this question, we need to take into account the transverse expansion too. One can easily check that unless the system expands faster than 
+\begin{align}
+\varepsilon(\tau)\sim \alpha_s^{12} Q_s^8 R^4 \left(\frac{R}{\tau}\right)^4,
+\end{align} 
+it can always reach thermal equilibrium.
+
+\end{document}
