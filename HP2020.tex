@@ -238,7 +238,7 @@ with $\Phi$ quark and gluon fields and $\Phi_\pm$ fields respectively on $C_\pm$
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-\begin{frame}{\bf\huge In principle, we may deal with the full problem.}
+\begin{frame}{\bf\huge The full problem of jet production}
 \vspace{4mm}
 \begin{center}
 \includegraphics[width=0.6\textwidth]{fig/AA}\\
@@ -315,7 +315,7 @@ Bjorken,
 \end{enumerate}
 \vspace{1mm}
 \begin{center}
-{\bf\large A complete understanding starting from this parton picture?}
+{\bf\large\color{darkred} A complete understanding starting from this parton picture?}
 \end{center}
 
 \end{frame}
@@ -411,23 +411,23 @@ Bjorken,
 %  %cell7 & cell8 & cell9    
 %  \hline
 % \end{tabular}\\
-\begin{tabular}{ c|| c c c c c c}
+\begin{tabular}{ l|| c c c c c c}
 \hline
-time interval&$N_s/N_h$ & $\epsilon_s/Q_s^4$ & $\tau/\tau_{th}$ & $T$\\
+stage&$N_s/N_h$ & $\epsilon_s/Q_s^4$ & $\tau/\tau_{th}$ & $T$\\
 \hline\hline
- $ \alpha_s^{-\frac{3}{2}}> \tau Q_s > 1$ 
+ I: $\alpha_s^{-\frac{3}{2}}> \tau Q_s > 1$ 
  & $(\tau Q_s)^{-\frac{1}{3}}$ 
  & $\alpha_{s}^{-1} (\tau Q_s)^{-\frac{5}{3}}$
  & $\alpha_{s}^{\frac{7}{4}} (\tau Q_s)^{\frac{7}{12}}$
  &0\\
  \hline
- $ \alpha_s^{-\frac{5}{2}}> \tau Q_s > \alpha_s^{-\frac{3}{2}}$ 
+ II: $\alpha_s^{-\frac{5}{2}}> \tau Q_s > \alpha_s^{-\frac{3}{2}}$ 
  & $\alpha_{s}^{\frac{5}{4}} (\tau Q_s)^{\frac{1}{2}}$
  & $\alpha_{s}^{\frac{3}{4}}(\tau Q_s)^{-\frac{1}{2}}$
  & $\alpha_{s}^{\frac{35}{16}} (\tau Q_s)^{\frac{7}{8}}$
  &0\\
   \hline
- $ \alpha_s^{-\frac{13}{5}}> \tau Q_s > \alpha_s^{-\frac{5}{2}}$ 
+ III: $\alpha_s^{-\frac{13}{5}}> \tau Q_s > \alpha_s^{-\frac{5}{2}}$ 
  & $\alpha_{s}^{10} (\tau Q_s)^{4}$
  & $\alpha_{s}^{12} (\tau Q_s)^{4}$ 
  & $ \alpha_{s}^{5} (\tau Q_s)^{2}$
@@ -450,88 +450,90 @@ time interval&$N_s/N_h$ & $\epsilon_s/Q_s^4$ & $\tau/\tau_{th}$ & $T$\\
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-\begin{frame}{\bf\huge The lowest order calculation on $C_\pm$}	\vspace{2mm}
+\begin{frame}{\bf\huge Stage 0: free soft gluon from wave functions}
+\begin{center}
+\includegraphics[width=0.55\textwidth]{fig/classical}\\
+\end{center}
+\begin{enumerate}
+\item{\large\bf Energy density:} $\epsilon\propto \frac{1}{\tau}~\text{at large $\tau$}$\\
+\vspace{1mm}
+\begin{center}
+{\tiny  {\color{teablue}
+  Kovchegov,
+  %``Can thermalization in heavy ion collisions be described by QCD diagrams?,''
+  Nucl.\ Phys.\ A {\bf 762}, 298 (2005)
+  [hep-ph/0503038];
+  Lappi,
+  %``Energy density of the glasma,''
+  Phys.\ Lett.\ B {\bf 643}, 11 (2006)
+  [hep-ph/0606207].
+}}
+\end{center}
+\vspace{1mm}
+\item{\large\bf Two point function in the limit $\tau\to\infty$}
 \begin{align}
-\text{\tiny $G_{22}^{a\mu,b\nu}(X, p)$}=\begin{array}{c}
-\includegraphics[width=0.45\textwidth]{fig/G22NLO}
-\end{array}\text{\tiny $\to  2\pi\delta(p^2) \delta^{ab}
+G_{22}^{a\mu,b\nu}(X, p) \to  2\pi\delta(p^2) \delta^{ab}
   \sum\limits_{\lambda=\pm}\epsilon_\lambda^\mu(p)
-  \epsilon_{\lambda}^{*\nu}(p) f^{cl}(X,p)$}\notag
+  \epsilon_{\lambda}^{*\nu}(p) f^{cl}(X,p)\notag
 \end{align}
-{\large\bf At $O(\alpha_s A^{2/3})$ and large $\tau$}
-\begin{align}
-  f^{cl}(X,p)=\frac{1}{\tau} \theta(X^+) \theta(X^-) \delta(y-\eta)
-  f_\perp^{cl}(\underline{p})
-  \notag
-\end{align}
+where $f^{cl}(X,p)=\frac{1}{\tau} \theta(X^+) \theta(X^-) \delta(y-\eta)
+  f_\perp^{cl}(\underline{p})$\\
 with $y = \frac{1}{2}\ln\frac{p^+}{p^-}$, $\eta = \frac{1}{2}\ln\frac{X^+}{X^-}$ and
 $f_\perp^{cl}(\underline{p})\equiv\frac{8\pi^2\alpha_s^3}{N_c}\left(\frac{A}{S_\perp}\right)^2
   \frac{1}{p_T^5}\ln\left(\frac{p_T^2}{\Lambda^2}\right).$
   \vspace{1mm}
+
 \begin{center}
-    {\tiny  {\color{teablue}
+  {\bf \color{darkred}\bf$\delta(p^2)$: classical field does go on mass-shell as $\tau\to\infty$!}\\
+  \vspace{1mm}
+  {\tiny  {\color{teablue}
   BW and Kovchegov,
   %``Time-dependent observables in heavy ion collisions. Part I. Setting up the formalism,''
   JHEP {\bf 1803}, 158 (2018)
   [arXiv:1709.02866 [hep-ph]].
 }}
 \end{center}
-% \vspace{2mm}
-% \item{\large \color{darkred}\bf The Bjorken or Landau pictures?}
-% \vspace{2mm}
-% \begin{center}
-% \includegraphics[width=0.65\textwidth]{fig/multiplicity}\\
-%     {\tiny {\color{teablue}
-% ALICE Collaboration:
-%   %``Centrality dependence of the pseudorapidity density distribution for charged particles in Pb-Pb collisions at $\sqrt{s_{\rm NN}}=5.02$ TeV,''
-%   Phys.\ Lett.\ B {\bf 726}, 610 (2013); Phys.\ Lett.\ B {\bf 772}, 567 (2017).
-% }}
-% \end{center}
-
-%\end{enumerate}
+\end{enumerate}
 \end{frame}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-\begin{frame}{\bf\huge Instability}	\vspace{2mm}
-\begin{align}
-\text{\tiny $G_{22}^{a\mu,b\nu}(X, p)$}=\begin{array}{c}
-\includegraphics[width=0.45\textwidth]{fig/G22NLO}
-\end{array}\text{\tiny $\to  2\pi\delta(p^2) \delta^{ab}
-  \sum\limits_{\lambda=\pm}\epsilon_\lambda^\mu(p)
-  \epsilon_{\lambda}^{*\nu}(p) f^{cl}(X,p)$}\notag
-\end{align}
-{\large\bf At $O(\alpha_s A^{2/3})$ and large $\tau$}
-\begin{align}
-  f^{cl}(X,p)=\frac{1}{\tau} \theta(X^+) \theta(X^-) \delta(y-\eta)
-  f_\perp^{cl}(\underline{p})
-  \notag
-\end{align}
-with $y = \frac{1}{2}\ln\frac{p^+}{p^-}$, $\eta = \frac{1}{2}\ln\frac{X^+}{X^-}$ and
-$f_\perp^{cl}(\underline{p})\equiv\frac{8\pi^2\alpha_s^3}{N_c}\left(\frac{A}{S_\perp}\right)^2
-  \frac{1}{p_T^5}\ln\left(\frac{p_T^2}{\Lambda^2}\right).$
-  \vspace{1mm}
+\begin{frame}{\bf\huge From classical fields to Boltzmann equation?}	\vspace{2mm}
+\begin{itemize}
+    \item {\large {\bf Conventional wisdom:} }
+\end{itemize}
+\end{frame}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\begin{frame}{\bf\huge Stages I, II, III}	\vspace{2mm}
+\begin{enumerate}
+    \item {\large Stage I from (statistical) classical field simulations:}
 \begin{center}
     {\tiny  {\color{teablue}
-  BW and Kovchegov,
-  %``Time-dependent observables in heavy ion collisions. Part I. Setting up the formalism,''
-  JHEP {\bf 1803}, 158 (2018)
-  [arXiv:1709.02866 [hep-ph]].
+  Berges, Boguslavski, Schlichting and Venugopalan,
+  %``Universal attractor in a highly occupied non-Abelian plasma,''
+  Phys.\ Rev.\ D {\bf 89}, 114007 (2014)
+  [arXiv:1311.3005 [hep-ph]].
 }}
 \end{center}
-% \vspace{2mm}
-% \item{\large \color{darkred}\bf The Bjorken or Landau pictures?}
-% \vspace{2mm}
-% \begin{center}
-% \includegraphics[width=0.65\textwidth]{fig/multiplicity}\\
-%     {\tiny {\color{teablue}
-% ALICE Collaboration:
-%   %``Centrality dependence of the pseudorapidity density distribution for charged particles in Pb-Pb collisions at $\sqrt{s_{\rm NN}}=5.02$ TeV,''
-%   Phys.\ Lett.\ B {\bf 726}, 610 (2013); Phys.\ Lett.\ B {\bf 772}, 567 (2017).
-% }}
-% \end{center}
-
-%\end{enumerate}
+    \item {\large Bottom-up in kinetic theory:}
+\begin{center}
+    {\tiny  {\color{teablue}
+  Berges, Boguslavski, Schlichting and Venugopalan,
+  %``Universal attractor in a highly occupied non-Abelian plasma,''
+  Phys.\ Rev.\ D {\bf 89}, 114007 (2014)
+  [arXiv:1311.3005 [hep-ph]].
+}\\
+as a numerical impelementation using
+{\color{teablue}
+  Berges, Boguslavski, Schlichting and Venugopalan,
+  %``Universal attractor in a highly occupied non-Abelian plasma,''
+  Phys.\ Rev.\ D {\bf 89}, 114007 (2014)
+  [arXiv:1311.3005 [hep-ph]].
+}}
+\end{center} 
+\end{enumerate}
 \end{frame}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -544,101 +546,51 @@ $f_\perp^{cl}(\underline{p})\equiv\frac{8\pi^2\alpha_s^3}{N_c}\left(\frac{A}{S_\
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-\begin{frame}{\bf\huge Some detailed calculation}	\vspace{2mm}
-{\large\bf Detail calculations:}
+\begin{frame}{\bf\huge Connection to jet quenching}	\vspace{2mm}
+{\large\bf Some detailed calculations:}
 \vspace{2mm}
 \begin{enumerate}
-\begin{itemize}
-    \item{\large Radiative energy loss: for $t_f \ll \tau$}
+    \item{\large Radiative energy spectrum can be calculated analysitcally.}
     \begin{align}
-        \omega\frac{dI}{d\omega} \sim \alpha_s N_c \sqrt{\frac{\hat{q}(\tau)\tau^2}{\omega}}\notag
+        \omega\frac{dI}{d\omega} \sim \alpha_s N_c \sqrt{\frac{\hat{q}(\tau)\tau^2}{\omega}}
+        \qquad\text{for $t_f \ll \tau$}\notag
     \end{align}
-    \item
-    \item
-\end{itemize}
-    \item
-    \item
-\end{enumerate}
-\end{frame}
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}{\bf\huge Focus: Probing the Inner Workings of QGP}	\vspace{4mm}
-\setcounter{page}{1}
 \begin{center}
-\includegraphics[width=0.65\textwidth]{fig/beyondhydro}
-\vspace{4mm}
-\begin{enumerate}
-\item {Hydro has been very phenomenologically successful.}
-\vspace{4mm}
-\item {\color{darkred} Studying the inner workings of QGP now lies beyond hydro.}
-\end{enumerate}
+    {\tiny  {\color{teablue}
+  Baier, Dokshitzer, Mueller and Schiff,
+  %``Radiative energy loss of high-energy partons traversing an expanding QCD plasma,''
+  Phys.\ Rev.\ C {\bf 58}, 1706 (1998); Arnold,
+  %``Simple Formula for High-Energy Gluon Bremsstrahlung in a Finite, Expanding Medium,''
+  Phys.\ Rev.\ D {\bf 79}, 065025 (2009).
+}}    
 \end{center}
-\end{frame}
-
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\setcounter{page}{5}
-\begin{frame}{\bf\huge The Bottom-Up Thermalization}	\vspace{4mm}
+\vspace{2mm}
+    \item{\large Radiative correction to $p_T$-broadening and $\hat{q}$:}\\
+    \vspace{2mm}
+    \begin{itemize}
+        \item{Leading-log and resummation}
+        \begin{align}
+        \hat{q}_{resum}(\tau) = \hat{q}(\tau)\,
+        \frac{\rmI_1\big(2 \sqrt{\abar}\, Y\big)}{\sqrt{\abar}\,Y}\qquad\text{with $Y=\ln(\tau/\lambda(\tau))$}\notag
+        \end{align}
+        looks like a static medium with $\hat{q} = \hat{q}(\tau)$ at each time!\\
 \begin{center}
-\includegraphics[width=0.65\textwidth]{fig/RAA_jet}\\
-{\tiny  Figure is taken from {\color{teablue}
-M.~Aaboud {\it et al.} [ATLAS Collaboration],
-  %``Measurement of the nuclear modification factor for inclusive jets in Pb+Pb collisions at $\sqrt{s_\mathrm{NN}}=5.02$ TeV with the ATLAS detector,''
-  Phys.\ Lett.\ B {\bf 790}, 108 (2019).
+    {\tiny  {\color{teablue}
+  Iancu, Taels and BW,
+  %``Jet quenching parameter in an expanding QCD plasma,''
+  Phys.\ Lett.\ B {\bf 786}, 288 (2018)
+  [arXiv:1806.07177 [hep-ph]].
   }}
 \end{center}
-\vspace{4mm}
-{\large It is broken:}
-\vspace{2mm}
-\begin{enumerate}
-\item{small-$x$ evolution in QCD;}
-\vspace{4mm}
-\item{AdS/CFT.}
-\end{enumerate}
-\end{frame}
-
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}{\bf\huge The Medium-Induced Parton Energy Loss}	\vspace{4mm}
-\begin{center}
-\includegraphics[width=0.65\textwidth]{fig/RAA_jet}\\
-{\tiny  Figure is taken from {\color{teablue}
-M.~Aaboud {\it et al.} [ATLAS Collaboration],
-  %``Measurement of the nuclear modification factor for inclusive jets in Pb+Pb collisions at $\sqrt{s_\mathrm{NN}}=5.02$ TeV with the ATLAS detector,''
-  Phys.\ Lett.\ B {\bf 790}, 108 (2019).
-  }}
-\end{center}
-\vspace{4mm}
-{\large It is broken:}
-\vspace{2mm}
-\begin{enumerate}
-\item{small-$x$ evolution in QCD;}
-\vspace{4mm}
-\item{AdS/CFT.}
-\end{enumerate}
-\end{frame}
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}{\bf\huge High-Order Results}	\vspace{4mm}
-\begin{center}
-\includegraphics[width=0.65\textwidth]{fig/RAA_jet}\\
-{\tiny  Figure is taken from {\color{teablue}
-M.~Aaboud {\it et al.} [ATLAS Collaboration],
-  %``Measurement of the nuclear modification factor for inclusive jets in Pb+Pb collisions at $\sqrt{s_\mathrm{NN}}=5.02$ TeV with the ATLAS detector,''
-  Phys.\ Lett.\ B {\bf 790}, 108 (2019).
-  }}
-\end{center}
-\vspace{4mm}
-{\large It is broken:}
-\vspace{2mm}
-\begin{enumerate}
-\item{small-$x$ evolution in QCD;}
-\vspace{4mm}
-\item{AdS/CFT.}
+    \vspace{2mm}
+        \item{Finite terms may also be important: {\tiny  {\color{teablue}
+  Zakharov,
+  %``Radiative $p_{\perp}$-broadening of fast partons in an expanding quark-gluon plasma,''
+  arXiv:2003.10182 [hep-ph].
+  %%CITATION = ARXIV:2003.10182;%%
+}}
+}
+    \end{itemize}
 \end{enumerate}
 \end{frame}
 %
