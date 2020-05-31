@@ -488,7 +488,7 @@ $f_\perp^{cl}(\underline{p})\equiv\frac{8\pi^2\alpha_s^3}{N_c}\left(\frac{A}{S_\
   \vspace{1mm}
   {\tiny  {\color{teablue}
   BW and Kovchegov,
-  %``Time-dependent observables in heavy ion collisions. Part I. Setting up the formalism,''
+  %``Time-dependent observables in heavy ion collisions. Part I. Setting unp the formalism,''
   JHEP {\bf 1803}, 158 (2018)
   [arXiv:1709.02866 [hep-ph]].
 }}
@@ -498,20 +498,49 @@ $f_\perp^{cl}(\underline{p})\equiv\frac{8\pi^2\alpha_s^3}{N_c}\left(\frac{A}{S_\
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-\begin{frame}{\bf\huge From classical fields to Boltzmann equation?}
+\begin{frame}{\bf\huge From classical fields to Boltzmann equation?}\\
+\vspace{1mm}
+{\large\bf The question:}
+\begin{align}
+f^{(1)}=\sum\begin{array}{c}
+\includegraphics[width=0.55\textwidth]{fig/CF2BE}
+\end{array}\notag
+\end{align}
+with $f^{(1)}$ solved from $\left(\frac{\partial}{\partial t} - \frac{1}{t} p_z
+    \frac{\partial}{\partial p_z}\right)
+  f^{(1)}= C_{2\leftrightarrow2}[f^{cl}]$.\\
+\vspace{2mm}
+{\large\bf The result:}
+\begin{enumerate}
+    \item {\large They are the same only if certain approximations imposed.}
 \begin{center}
-\includegraphics[width=0.55\textwidth]{fig/CF2BE}\\
+ {\tiny  {\color{teablue}
+  BW and Kovchegov,
+  %``Time-dependent observables in heavy ion collisions. Part I. Setting unp the formalism,''
+  JHEP {\bf 1803}, 158 (2018)
+  [arXiv:1709.02866 [hep-ph]].
+}}
 \end{center}
-\begin{itemize}
-    \item {\large {\bf Conventional wisdom:} }
-\end{itemize}
+    \item {\large A detailed calculation in $\phi^4$ theory shows otherwise.}
+\begin{center}
+ {\tiny  {\color{teablue}
+  Kovchegov and BW,
+  %``Time-dependent observables in heavy ion collisions. Part II. In search of pressure isotropization in the $\varphi^4$ theory,''
+  JHEP {\bf 1803}, 157 (2018)
+  [arXiv:1709.02868 [hep-ph]].
+}}\\\vspace{2mm}
+{\bf \color{red} Yet to be understood in QCD!}
+\end{center}
+\end{enumerate}
 \end{frame}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-\begin{frame}{\bf\huge Stages I, II, III}	\vspace{2mm}
+\begin{frame}{\bf\huge Some detailed simulations}	\vspace{2mm}
+{\large \bf Confirmation of Bottom-up thermalization:}\\
+\vspace{2mm}
 \begin{enumerate}
-    \item {\large Stage I from (statistical) classical field simulations:}
+    \item {\large Stage I from classical statistical approximation (CSA):}
 \begin{center}
     {\tiny  {\color{teablue}
   Berges, Boguslavski, Schlichting and Venugopalan,
@@ -523,20 +552,53 @@ $f_\perp^{cl}(\underline{p})\equiv\frac{8\pi^2\alpha_s^3}{N_c}\left(\frac{A}{S_\
     \item {\large Bottom-up in kinetic theory:}
 \begin{center}
     {\tiny  {\color{teablue}
-  Berges, Boguslavski, Schlichting and Venugopalan,
-  %``Universal attractor in a highly occupied non-Abelian plasma,''
-  Phys.\ Rev.\ D {\bf 89}, 114007 (2014)
-  [arXiv:1311.3005 [hep-ph]].
-}\\
-as a numerical impelementation using
-{\color{teablue}
-  Berges, Boguslavski, Schlichting and Venugopalan,
-  %``Universal attractor in a highly occupied non-Abelian plasma,''
-  Phys.\ Rev.\ D {\bf 89}, 114007 (2014)
-  [arXiv:1311.3005 [hep-ph]].
+  Kurkela and Zhu,
+  %``Isotropization and hydrodynamization in weakly coupled heavy-ion collisions,''
+  Phys.\ Rev.\ Lett.\  {\bf 115}, 182301 (2015)
+  [arXiv:1506.06647 [hep-ph]].
+}}
+\end{center}
+    \item {\large An entire evolution by matching:}
+\begin{center}
+    {\tiny  {\color{teablue}
+  Kurkela, Mazeliauskas, Paquet, Schlichting and Teaney,
+  %``Matching the Nonequilibrium Initial Stage of Heavy Ion Collisions to Hydrodynamics with QCD Kinetic Theory,''
+  Phys.\ Rev.\ Lett.\  {\bf 122}, 122302 (2019)
+  [arXiv:1805.01604 [hep-ph]].
 }}
 \end{center} 
 \end{enumerate}
+\vspace{2mm}
+{\large \bf Beyond "purely" classical limit in CSA:}\\
+\begin{enumerate}
+\vspace{1mm}
+    \item {\large Method:}\\
+    \vspace{1mm}
+    The vacuum (quantum) fluctuation is included in the initial condition.
+    \item{\large {\bf Prons:} Fast isotripization has been shown in CSA.}
+    \begin{center}
+    {\tiny  {\color{teablue}
+  Epelbaum and Gelis,
+  %``Pressure isotropization in high energy heavy ion collisions,''
+  Phys.\ Rev.\ Lett.\  {\bf 111}, 232301 (2013)
+  [arXiv:1307.2214 [hep-ph]].
+}}
+\end{center} 
+    \item{\large {\bf Cons:} One has to deal with nonrenormalizablity}
+        \begin{center}
+    {\tiny  {\color{teablue}
+  Epelbaum, Gelis and BW,
+  %``Nonrenormalizability of the classical statistical approximation,''
+  Phys.\ Rev.\ D {\bf 90}, no. 6, 065029 (2014)
+  [arXiv:1402.0115 [hep-ph]].\\
+    Berges, Boguslavski, Schlichting and Venugopalan,
+  %``Basin of attraction for turbulent thermalization and the range of validity of classical-statistical simulations,''
+  JHEP {\bf 1405}, 054 (2014)
+  [arXiv:1312.5216 [hep-ph]].
+}}
+\end{center} 
+\end{enumerate}
+
 \end{frame}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -614,29 +676,23 @@ as a numerical impelementation using
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
+\setcounter{page}{12}
 \begin{frame}{\bf\huge Hydro vs Non-hydro Modes}
 \vspace{4mm}
-\begin{itemize}
-\item{\Large Two trivial statements:}\\
+\begin{enumerate}
+\item{\Large{\bf Hydrodynamics:} hydro pole of $G_R^{\alpha\beta, \gamma\delta}$}
+\vspace{2mm}
+\begin{columns}
+\begin{column}{0.55\textwidth}
 \vspace{4mm}
 \begin{enumerate}
-\item{\large QFTs contain hydrodynamics.}
+\item{\large All QFTs contain hydro.}
 \vspace{4mm}
-\item{\color{darkred}\large QFTs go beyond hydrodynamics in different ways.}
+\item{\color{darkred}\large They differ in non-hydro.}
 \end{enumerate}
 \vspace{4mm}
-\item{\Large Examples:}
-\end{itemize}
-\begin{columns}
-\begin{column}{0.45\textwidth}
-\begin{center}
-%\includegraphics[width=\textwidth]{omega_ADS}
-\begin{overpic}[width=\textwidth]{fig/omega_ADS}
-\put (30, -8){\color{teablue}cf. Saso's talk}
-\end{overpic}
-\end{center}
 \end{column}
-\begin{column}{0.45\textwidth}
+\begin{column}{0.3\textwidth}
 %\setcounter{page}{2}
 \begin{center}
 \includegraphics[width=\textwidth]{fig/omega_QCD}
@@ -646,284 +702,91 @@ as a numerical impelementation using
 \vspace{4mm}
 \begin{center}
 the analytic structure of {\small $G_R^{\alpha\beta, \gamma\delta}(\omega, \vec{k}) = -i\int d^4 x e^{ik\cdot x}\theta(x^0)\langle[T^{\alpha\beta}(x),T^{\gamma\delta}(0)] \rangle$}
+\\\vspace{1mm}
+{\tiny  For a review: {\color{teablue}
+  Florkowski, Heller and Spalinski,
+  %``New theories of relativistic hydrodynamics in the LHC era,''
+  Rept.\ Prog.\ Phys.\  {\bf 81}, no. 4, 046001 (2018)
+  [arXiv:1707.02282 [hep-ph]].
+  }}
 \end{center}
+\item{\large{\bf Hydrodynamic models}: hydro + some non-hydro modes}
+\vspace{2mm}
+\begin{enumerate}
+    \item{\large The Israel-Stewart (IS) hydro:}
+    \begin{center}
+    {\tiny {\color{teablue}
+    Israel and Stewart,
+  %``Transient relativistic thermodynamics and kinetic theory,''
+  Annals Phys.\  {\bf 118}, 341 (1979)..
+    }}
+\end{center}
+\item{$\cdots$}
+\end{enumerate}
+\item{\large \bf Condition for applicability of hydrodynamic models:}\\
+\begin{center}
+   {\bf \color{darkred} hydro modes dominate non-hydro modes}
+\end{center}
+\end{enumerate}
 \end{frame}
+% %
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %
+% \begin{frame}{\bf\huge IS Hydro Is Not Only Hydro}
+% \vspace{4mm}
+% \begin{center}
+% \includegraphics[width=0.6\textwidth]{fig/omega_IS}
+% \end{center}
+% {\tiny {\color{white} Romatschke,
+%   %``Retarded correlators in kinetic theory: branch cuts, poles and hydrodynamic onset transitions,''
+%   Eur.\ Phys.\ J.\ C {\bf 76}, no. 6, 352 (2016)
+%   %doi:10.1140/epjc/s10052-016-4169-7
+%   [arXiv:1512.02641];\\Kurkela and Wiedemann,
+%   %``Analytic structure of nonhydrodynamic modes in kinetic theory,''
+%   arXiv:1712.04376.
+%   }
+%   }\vspace{4mm}\\
+% %\phantom
+% {{\LARGE\bf\color{darkred} The Israel-Stewart (IS) hydro}}
+% %\setcounter{page}{5}
+% \vspace{4mm}
+% \begin{center}
+% %\phantom
+% {$D\Pi^{\mu\nu}+\frac{4}{3}\Pi^{\mu\nu}\nabla_\alpha u^\alpha = \frac{1}{\tau_\pi}\left(\Pi^{\mu\nu}+2 \eta\sigma^{\mu\nu}\right).$}
+% \end{center}
+%  \end{frame}
 %
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-\begin{frame}{\bf\huge Strategy to Probe Inner Workings of QGP}
-%\setcounter{page}{3}
+\begin{frame}{\bf\huge Opportunities for studying small systems}
+\vspace{4mm}
+{\bf \large Two opposite directions:}
+\vspace{2mm}
+\begin{enumerate}
+\item{\large One fluid to rule them all.}
 \begin{center}
-\includegraphics[width=0.7\textwidth]{fig/goal}
+{\tiny Quotes from the title of {\color{teablue}
+  Weller and Romatschke,
+  %``One fluid to rule them all: viscous hydrodynamic description of event-by-event central p+p, p+Pb and Pb+Pb collisions at $\sqrt{s}=5.02$ TeV,''
+  Phys.\ Lett.\ B {\bf 774}, 351 (2017)
+  [arXiv:1701.07145 [nucl-th]].
+}}
+\end{center}
+\vspace{2mm}
+\item{\large\bf \color{darkred} Golden opportunity to study non-hydro modes}
+\vspace{2mm}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{fig/goal}
 \vspace{2mm}\\
 {\color{white}\bf\LARGE Decreasing $R\sim 1/k$ enhances non-hydro contributions.}
 \end{center}
-\end{frame}
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}{\bf\huge Strategy to Probe Inner Workings of QGP}
-\begin{center}
-\begin{overpic}[width=0.7\textwidth]{fig/goalo}
-\put (25, 46){\color{black}\framebox[1.1\width]{$G_R(\tau, k)\sim {\color{hydroblue}c_{hyd} e^{-D k^2 \tau}} + {\color{red}\text{non-hydro terms}}$}}
-\end{overpic}\vspace{2mm}\\
-{\color{darkred}\bf\LARGE Decreasing $R\sim 1/k$ enhances non-hydro contributions.}
-\end{center}
-\end{frame}
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}
-\setcounter{page}{0}
-\topskip0pt
-\vspace*{\fill}
-\begin{center}
-{\Huge\bf\color{gray} An Illustration Using A\\Conformal Kinetic Transport (CKT)}
-\end{center}
-\vspace*{\fill}
-\end{frame}
-%
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}{\bf\huge Hydro Is Hydro}
-\setcounter{page}{5}
-\vspace{4mm}
-\begin{center}
-\includegraphics[width=0.6\textwidth]{fig/omega_hydro}
-\end{center}
-{\tiny  {\color{white} Romatschke,
-  %``Retarded correlators in kinetic theory: branch cuts, poles and hydrodynamic onset transitions,''
-  Eur.\ Phys.\ J.\ C {\bf 76}, no. 6, 352 (2016)
-  %doi:10.1140/epjc/s10052-016-4169-7
-  [arXiv:1512.02641];\\Kurkela and Wiedemann,
-  %``Analytic structure of nonhydrodynamic modes in kinetic theory,''
-  arXiv:1712.04376.
-  }
-  }\vspace{4mm}\\
-%\phantom
-{{\LARGE\bf\color{white}The Israel-Stewart (IS) hydro}}
-\vspace{4mm}
-\begin{center}
-%\phantom
-{\color{white}$D\Pi^{\mu\nu}+\frac{4}{3}\Pi^{\mu\nu}\nabla_\alpha u^\alpha = \frac{1}{\tau_\pi}\left(\Pi^{\mu\nu}+2 \eta\sigma^{\mu\nu}\right).$}
-\end{center}
- \end{frame}
-%
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}{\bf\huge IS Hydro Is Not Only Hydro}
-\setcounter{page}{5}
-\vspace{4mm}
-\begin{center}
-\includegraphics[width=0.6\textwidth]{fig/omega_IS}
-\end{center}
-{\tiny {\color{white} Romatschke,
-  %``Retarded correlators in kinetic theory: branch cuts, poles and hydrodynamic onset transitions,''
-  Eur.\ Phys.\ J.\ C {\bf 76}, no. 6, 352 (2016)
-  %doi:10.1140/epjc/s10052-016-4169-7
-  [arXiv:1512.02641];\\Kurkela and Wiedemann,
-  %``Analytic structure of nonhydrodynamic modes in kinetic theory,''
-  arXiv:1712.04376.
-  }
-  }\vspace{4mm}\\
-%\phantom
-{{\LARGE\bf\color{darkred} The Israel-Stewart (IS) hydro}}
-%\setcounter{page}{5}
-\vspace{4mm}
-\begin{center}
-%\phantom
-{$D\Pi^{\mu\nu}+\frac{4}{3}\Pi^{\mu\nu}\nabla_\alpha u^\alpha = \frac{1}{\tau_\pi}\left(\Pi^{\mu\nu}+2 \eta\sigma^{\mu\nu}\right).$}
-\end{center}
- \end{frame}
-%
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}{\bf\huge Kinetic Transport in ITA Is Not Less Hydro}
-%\setcounter{page}{6}
-\vspace{2mm}
-\begin{center}
-\includegraphics[width=0.6\textwidth]{fig/omega_RTA}
-\end{center}
-{\tiny  {\color{teablue} Romatschke,
-  %``Retarded correlators in kinetic theory: branch cuts, poles and hydrodynamic onset transitions,''
-  Eur.\ Phys.\ J.\ C {\bf 76}, no. 6, 352 (2016)
-  %doi:10.1140/epjc/s10052-016-4169-7
-  [arXiv:1512.02641]; Kurkela and Wiedemann,
-  %``Analytic structure of nonhydrodynamic modes in kinetic theory,''
-  arXiv:1712.04376.
-  }
-  }\vspace{4mm}\\
-%\phantom
-{{With the same transport coefficients and $\tau_\pi$ calculated in the CKT,}}
-\vspace{4mm}
-\begin{enumerate}
-\item {The CKT and IS hydro have the same hydro pole.}
-\vspace{4mm}
-\item {\color{darkred}IS non-hydro pole is replaced by a branch cut in CKT.}
-\end{enumerate}
-%\vspace{4mm}
-%\begin{center}
-%\phantom
-%{$ \partial_\tau f + \vec{v}_\perp \cdot \partial_{\vec{x}_\perp} f -\frac{p_z}{\tau}\partial_{p_z}f =-\frac{1}{\tau_{iso}}(-v_\mu u^{\mu})( f- f_{iso}).$}
-%\end{center}
-\end{frame}
-%
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}{\bf\huge Features of the CKT}
-%%\setcounter{page}{6}
-\begin{center}
-\includegraphics[width=0.8\textwidth]{fig/omega_ISCKT0}\end{center}
-%\phantom
-\begin{enumerate}
-\item {Physics depends on only one dimensionless parameter:}\\
-\begin{center}
-{\color{darkred}
-\framebox[1.1\width]{
-Opacity: $\hat{\gamma} = \gamma R^{\frac{3}{4}} (\varepsilon_0 \tau_0)^{\frac{1}{4}}$
-}
-}
-\end{center}
-\item {CKT and IS hydro with (conformal EOS) have the same hydro pole.}
-\item {The transport coefficients:}
-$
-\frac{\eta}{s} = \frac{1}{5}\frac{T}{\gamma \varepsilon^\frac{1}{4}}
-$
-\item {CFT interpolates free-streaming ($\hat{\gamma}\to 0$) and ideal hydro ($\hat{\gamma}\to\infty$)}
-\item {\color{darkred}For $\tau_\pi = \frac{1}{\gamma \varepsilon^\frac{1}{4}}$, IS non-hydro pole degrades into a branch cut in CKT.}
 \end{enumerate}
 \end{frame}
 %
-%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%\begin{frame}{\bf\huge Pin Down Sensitivity to Non-hydro Modes}
-%\begin{center}
-%\includegraphics[width=0.8\textwidth]{fig/omega_ISCKT}\end{center}
-%\vspace{4mm}
-%The approach to answer this question:
-%\vspace{4mm}
-%\begin{center}
-%\includegraphics[width=0.8\textwidth]{fig/approachnonhydro}\end{center}
-%%\phantom
-%%\begin{enumerate}
-%%\item {Physics depends on only one dimensionless parameter:}\\
-%%\begin{center}
-%%{\color{darkred}
-%%\framebox[1.1\width]{
-%%Opacity: $\hat{\gamma} = \gamma R^{\frac{3}{4}} (\varepsilon_0 \tau_0)^{\frac{1}{4}}$
-%%}
-%%}
-%%\end{center}
-%%\item {CKT and IS hydro with (conformal EOS) have the same hydro pole.}
-%%\item {The transport coefficients:}
-%%$
-%%\frac{\eta}{s} = \frac{1}{5}\frac{T}{\gamma \varepsilon^\frac{1}{4}}
-%%$
-%%\item {CFT interpolates free-streaming ($\hat{\gamma}\to 0$) and ideal hydro ($\hat{\gamma}\to\infty$)}
-%%\item {\color{darkred}For $\tau_\pi = \frac{1}{\gamma \varepsilon^\frac{1}{4}}$, IS non-hydro pole degrades into a branch cut in CKT.}
-%%\end{enumerate}
-%\end{frame}
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}{\bf\huge Pin Down Sensitivity to Non-hydro Modes}
-%\setcounter{page}{7}
-\begin{center}
-\includegraphics[width=0.8\textwidth]{fig/omega_ISCKT}\end{center}
-\vspace{4mm}
-The approach to answer this question:
-\vspace{4mm}
-\begin{center}
-\includegraphics[width=0.8\textwidth]{fig/approachnonhydros}\end{center}
-%\phantom
-%\begin{enumerate}
-%\item {Physics depends on only one dimensionless parameter:}\\
-%\begin{center}
-%{\color{darkred}
-%\framebox[1.1\width]{
-%Opacity: $\hat{\gamma} = \gamma R^{\frac{3}{4}} (\varepsilon_0 \tau_0)^{\frac{1}{4}}$
-%}
-%}
-%\end{center}
-%\item {CKT and IS hydro with (conformal EOS) have the same hydro pole.}
-%\item {The transport coefficients:}
-%$
-%\frac{\eta}{s} = \frac{1}{5}\frac{T}{\gamma \varepsilon^\frac{1}{4}}
-%$
-%\item {CFT interpolates free-streaming ($\hat{\gamma}\to 0$) and ideal hydro ($\hat{\gamma}\to\infty$)}
-%\item {\color{darkred}For $\tau_\pi = \frac{1}{\gamma \varepsilon^\frac{1}{4}}$, IS non-hydro pole degrades into a branch cut in CKT.}
-%\end{enumerate}
-\end{frame}
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}{\bf\huge Proof of Sensitivity to Non-hydro Modes}
-\begin{center}
-\begin{overpic}[width=0.7\textwidth]{fig/ckthydro}
-%\put (25, 46){\color{darkred}$G_R(t, k)\sim c_{hyd} e^{-D k^2 t} + \text{non-hydro terms}$}
-\end{overpic}\vspace{4mm}\\
-{\color{darkred}\bf\LARGE Sensitivity to non-hydro modes is more pronounced in small systems.}
-\vspace{4mm}\\
-{\tiny  {\color{teablue} Kurkela, Wiedemann and BW,
-  %``Kinetic transport is needed to reliably extract shear viscosity from pA and AA data,''
-  arXiv:1805.04081.
-  }
-  }
-\end{center}
-\end{frame}
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}{\bf\huge Interpretation of Sensitivity to Non-hydro Modes}
-\begin{center}
-\includegraphics[width=0.5\textwidth]{fig/CKTIS}
-\vspace{2mm}
-\\
-{\color{black}\framebox[1.1\width]{\bm $G_R(\tau, k)\sim {\color{hydroblue}c_{hyd} \underbrace{e^{-D k^2 \tau}}_{\text{reduced for small $R$}}} + {\color{red}c_{non-hyd} \underbrace{e^{-\frac{\tau}{\tau_\pi}}}_{\text{enhanced for small $\varepsilon$}}}$}}
-\\\vspace{10mm}
-{\color{darkred}\LARGE Non-hydro modes are enhanced in small or dilute systems $\Leftrightarrow$ small $\hat\gamma= R/l_{mfp}$ with $l_{mfp}$ mean free path.}
-\end{center}
-\end{frame}
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}{\bf\huge Flow PURELY from Non-hydro modes at $\hat{\gamma}\to0$}
-\vspace{4mm}
-{{\LARGE From mode-mode coupling due to \color{darkred}  one final-state scattering}}
-\vspace{2mm}
-{
-\begin{eqnarray}
- \frac{d E_\perp}{d \eta d \phi}
-= \frac{1}{2\pi}\frac{d E_\perp}{d \eta}\Big\vert_{\hat\gamma=0,\epsilon_n =0} 
-&&  \left\{
-1 -0.210 \,\hat\gamma -{\color{darkred} \underbrace{0.212 \, \hat\gamma \epsilon_2}_{v_2}} \, 2 \cos(2 \phi - 2 \psi_2) \right.\nonumber \\
-&& -{\color{darkred} \underbrace{ 0.140 \,\hat\gamma \epsilon_3}_{v_3}} \, 2 \cos(3\phi- 3\psi_3)\nonumber \\
-&&+ {\color{darkred} \underbrace{0.063 \,\hat\gamma \epsilon_2^2}_{v_4}} 2 \cos(4 \phi - 4 \psi_2) +0.015\, \hat\gamma \epsilon_2^2\nonumber \\
-&& +{\color{darkred} \underbrace{0.112\, \hat\gamma \epsilon_3^2}_{v_6}} 2 \cos(6 \phi - 6 \psi_3) + 0.043 \,\hat\gamma \epsilon_3^2 \nonumber \\
-&&\left.+ {\color{darkred} \underbrace{0.088 \,\hat\gamma \epsilon_2 \epsilon_3}_{v_5}} 2 \cos(5\phi - 3\psi_3- 2\psi_2)
- \right\}\,\nonumber.
-\end{eqnarray}
-}
-\vspace{1mm}
-\begin{center}
-{\tiny  {\color{teablue} Kurkela, Wiedemann and BW,
-  %``Kinetic transport is needed to reliably extract shear viscosity from pA and AA data,''
-  Phys.\ Lett.\ B {\bf 783}, 274 (2018), [arXiv:1803.02072].
-  }
-  }
-\end{center}
-\end{frame}
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\setcounter{page}{8}
-\begin{frame}{\bf\huge Physical picture for flow in small systems}
+\begin{frame}{\bf\huge Flow in small and/or dilute limit}
 \vspace{4mm}
 \begin{center}
 \includegraphics[width=0.65\textwidth]{fig/onehit}\\
@@ -945,9 +808,48 @@ The approach to answer this question:
 }
 \end{frame}
 %
+%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-\begin{frame}{\bf\huge From Free-streaming to Ideal Hydro}
+\begin{frame}{\bf\huge Features of the early-time dynamics}
+%%\setcounter{page}{6}
+\vspace{2mm}
+\begin{center}
+\includegraphics[width=0.4\textwidth]{fig/RTAattract}
+\includegraphics[width=0.4\textwidth]{fig/rcurve}\\
+\vspace{2mm}
+{\tiny  {\color{teablue}   Kurkela, van der Schee, Wiedemann and BW,
+  %``Early- and Late-Time Behavior of Attractors in Heavy-Ion Collisions,''
+  Phys.\ Rev.\ Lett.\  {\bf 124}, 102301 (2020)
+  [arXiv:1907.08101 [hep-ph]]..
+  }}\\
+  \vspace{2mm}
+  {\color{teablue} (cf. talk by Wilke van der Schee)}
+\end{center}
+%\phantom
+\begin{enumerate}
+\item{\large\bf There are some qualitative similarities to QCD.}\\
+\vspace{2mm}
+\begin{itemize}
+\item{\large Early-time attractor}\vspace{1mm}
+\item{\large Late-time (hydro) attractor}
+\begin{center}
+{\tiny  See, e.g., {\color{teablue}  
+    Romatschke,
+  %``Relativistic Fluid Dynamics Far From Local Equilibrium,''
+  Phys.\ Rev.\ Lett.\  {\bf 120}, no. 1, 012301 (2018)
+  [arXiv:1704.08699 [hep-th]].
+  }}
+\end{center}
+\end{itemize}
+\vspace{1mm}
+\item{\bf The early-time dynamics may be modified by system size (opacity).}
+\end{enumerate}
+\end{frame}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\begin{frame}{\bf\huge $v_2$ from Free-streaming to Ideal Hydro}
 \begin{center}
 \begin{overpic}[width=0.7\textwidth]{fig/ckthydrofull}
 %\put (25, 46){\color{darkred}$G_R(t, k)\sim c_{hyd} e^{-D k^2 t} + \text{non-hydro terms}$}
@@ -961,19 +863,6 @@ The approach to answer this question:
   }
 \end{center}
 \end{frame}
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}
-\setcounter{page}{0}
-\topskip0pt
-\vspace*{\fill}
-\begin{center}
-{\Huge\bf\color{gray} Hydro vs Non-hydro}
-\end{center}
-\vspace*{\fill}
-\end{frame}
-\setcounter{page}{13}
 %
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1048,7 +937,7 @@ $Q(t,r) =  \sqrt{  \frac{ \left( T_{\rm kin}- T_{\rm hyd} \right)^{\mu\nu}   \le
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 \begin{frame}{\bf\huge How Much "Fluid" is CKT?}
-\setcounter{page}{14}
+\setcounter{page}{18}
 \vspace{4mm}
 \begin{center}
 \begin{overpic}[width=1\textwidth]{fig/Q1Q}
@@ -1068,7 +957,7 @@ $Q(t,r) =  \sqrt{  \frac{ \left( T_{\rm kin}- T_{\rm hyd} \right)^{\mu\nu}   \le
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 \begin{frame}{\bf\huge How Much "Fluid" is CKT?}
-\setcounter{page}{14}
+\setcounter{page}{18}
 \vspace{4mm}
 \begin{center}
 \begin{overpic}[width=1\textwidth]{fig/Q12}
@@ -1088,7 +977,7 @@ $Q(t,r) =  \sqrt{  \frac{ \left( T_{\rm kin}- T_{\rm hyd} \right)^{\mu\nu}   \le
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 \begin{frame}{\bf\huge How Much "Fluid" is CKT?}
-\setcounter{page}{14}
+\setcounter{page}{18}
 \vspace{4mm}
 \begin{center}
 \begin{overpic}[width=1\textwidth]{fig/Q12Q}
@@ -1104,42 +993,29 @@ $Q(t,r) =  \sqrt{  \frac{ \left( T_{\rm kin}- T_{\rm hyd} \right)^{\mu\nu}   \le
   }
 \end{center}
 \end{frame}
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}{\bf\huge Fluid vs Non-fluid in Our Numerical Results}
-\vspace{4mm}
-\begin{center}
-\begin{overpic}[width=0.9\textwidth]{fig/hydroness}
-%\put (25, 46){\color{darkred}$G_R(t, k)\sim c_{hyd} e^{-D k^2 t} + \text{non-hydro terms}$}
-\end{overpic}
-%\vspace{4mm}\\
-%{\color{darkred}\bf\LARGE How to qualify how much ''fluid'' bulk matter is?}
-%\vspace{4mm}\\
-%{\small  {\color{teablue} Kurkela, Wiedemann and BW,
-%   arXiv:1905.05139.
-%  }
-%  }
-\end{center}
-\end{frame}
-
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}
-\setcounter{page}{0}
-\topskip0pt
-\vspace*{\fill}
-\begin{center}
-{\Huge\bf\color{gray} Confronting Data}
-\end{center}
-\vspace*{\fill}
-\end{frame}
+% %
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %
+% \begin{frame}{\bf\huge Fluid vs Non-fluid in Our Numerical Results}
+% \vspace{4mm}
+% \begin{center}
+% \begin{overpic}[width=0.9\textwidth]{fig/hydroness}
+% %\put (25, 46){\color{darkred}$G_R(t, k)\sim c_{hyd} e^{-D k^2 t} + \text{non-hydro terms}$}
+% \end{overpic}
+% %\vspace{4mm}\\
+% %{\color{darkred}\bf\LARGE How to qualify how much ''fluid'' bulk matter is?}
+% %\vspace{4mm}\\
+% %{\small  {\color{teablue} Kurkela, Wiedemann and BW,
+% %   arXiv:1905.05139.
+% %  }
+% %  }
+% \end{center}
+% \end{frame}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 \begin{frame}{\bf\huge Measurement of Opacity}
-\setcounter{page}{16}
+%\setcounter{page}{16}
 \vspace{4mm}
 \begin{center}
 \begin{overpic}[width=0.6\textwidth]{fig/v2ALICEvsKinThTeV5gamma}
@@ -1246,25 +1122,6 @@ And for small systems: {\color{darkred}\framebox[0.4\textwidth]{$\left.\frac{v_2
 {\Huge\bf\color{gray}Backup Slides}
 \end{center}
 \vspace*{\fill}
-\end{frame}
-%
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}{\bf\huge Implementation in QFT}
-\setcounter{page}{0}
-{\color{darkred}QFT has richer structures than kinetic theory. In two-point function, one has}
-\begin{center}
-\includegraphics[width=0.55\textwidth]{fig/GXpLO}\\
-\vspace{4mm}
-{\tiny  {\color{teablue} Kovchegov \& BW,
-  %``Kinetic transport is needed to reliably extract shear viscosity from pA and AA data,''
-    JHEP {\bf 1803}, 157 \& 178 (2018).
-  }
-  }\\
-  \vspace{2mm}
-  {\color{darkred} $v_2$ can be calculated using the framework in these papers (working in progress).}
-\end{center}
 \end{frame}
 \end{document}
 
