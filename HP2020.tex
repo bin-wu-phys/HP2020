@@ -1,5 +1,6 @@
 \documentclass[9pt,a4paper,unknownkeysallowed,xcolor=dvipsnames,aspectratio=43]{beamer}
 \usepackage[percent]{overpic}
+\usepackage{pifont }
 %aspectratio=1610, 169, 149, 54, 43 and 32
 \usepackage{subfigure,graphicx}
 \usepackage{hyperref}  
@@ -249,13 +250,13 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-\begin{frame}{\bf\huge Simplification: QCD Factorization}	\vspace{4mm}
+\begin{frame}{\bf\huge Two essential steps toward the answer}	\vspace{4mm}
 \begin{center}
-\includegraphics[width=0.6\textwidth]{fig/facotrization}\\
+\includegraphics[width=0.5\textwidth]{fig/facotrization}\\
 \end{center}
 %\vspace{2mm}
 \begin{enumerate}
-\item{A factorization formula:}
+\item{Modularization by QCD Factorization:}
 \begin{align}
     \frac{d\sigma}{dp_{T} d\eta} =\sum\limits_{abc}f_a\otimes f_b \otimes \hat{\sigma}_{ab\to c}\otimes \underbrace{J_c^{med}}_{\text{\color{darkred}Bulk enters.}}\notag
 \end{align}
@@ -266,18 +267,18 @@
   Phys.\ Rev.\ Lett.\  {\bf 122}, no. 25, 252301 (2019)
   %[arXiv:1903.01993 [hep-ph]]
   .
-  }}\\
-  \vspace{2mm}
- {\color{darkred}\bf A better understanding of bulk is need!
+  }}
+\end{center}
+  \vspace{1mm}
+\item{\color{darkred}\bf A better understanding of bulk
  %$\textcircled{1}$ a proof in QCD is still missing!
  }
-\end{center}
 \end{enumerate}
 \end{frame}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-\begin{frame}{\bf\huge The Bjorken Picture}	\vspace{4mm}
+\begin{frame}{\bf\huge The Bjorken Picture for bulk matter}	\vspace{4mm}
 \begin{center}
 \includegraphics[width=0.65\textwidth]{fig/Bjorken}\\
 {\tiny  {\color{teablue}
@@ -291,11 +292,13 @@ Bjorken,
 \begin{enumerate}
 \item{\large The valence quarks pass through each other.}
 \vspace{2mm}
-\item{\large Soft ("wee") partons are freed from the wave function.}
+\item{\large Soft ("wee") partons are freed from nuclear wave functions.}
 \vspace{2mm}
 \item{\large Product: a central plateau in the rapidity distribution.}\\
 \vspace{1mm}
-    {\color{darkred}longitudinal boost invariance} (around mid-rapidity)
+\begin{center}
+    {\color{darkred}$\Leftrightarrow$longitudinal boost invariance} (the focus of this talk)
+\end{center}
 \vspace{1mm}
 \item{\large The saturation model (CGC): $k\sim Q_s$}
 \begin{center}
@@ -671,7 +674,7 @@ with $f^{(1)}$ solved from $\left(\frac{\partial}{\partial t} - \frac{1}{t} p_z
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-\setcounter{page}{12}
+\setcounter{page}{10}
 \begin{frame}{\bf\huge Hydro vs Non-hydro Modes}
 \vspace{4mm}
 \begin{enumerate}
@@ -803,6 +806,59 @@ the analytic structure of {\small $G_R^{\alpha\beta, \gamma\delta}(\omega, \vec{
 }
 \end{frame}
 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\begin{frame}{\bf\huge A conformal kinetic transport theory (CKT)}
+%%\setcounter{page}{6}
+\vspace{2mm}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{fig/omega_ISCKT0}\\
+\vspace{1mm}
+{\tiny  {\color{teablue} Romatschke,
+  %``Retarded correlators in kinetic theory: branch cuts, poles and hydrodynamic onset transitions,''
+  Eur.\ Phys.\ J.\ C {\bf 76}, no. 6, 352 (2016)
+  %doi:10.1140/epjc/s10052-016-4169-7
+  [arXiv:1512.02641]; Kurkela and Wiedemann,
+  %``Analytic structure of nonhydrodynamic modes in kinetic theory,''
+  arXiv:1712.04376.
+  }}
+\end{center}
+%\phantom
+\begin{enumerate}
+\item{Similar to kinetic theory in relaxation time approximation:}\\
+\begin{center}
+{\tiny  {\color{teablue}
+Baym,
+  %``Thermal Equilibration In Ultrarelativistic Heavy Ion Collisions,''
+Phys.\ Lett.\  {\bf 138B}, 18 (1984).
+}}
+\end{center}
+\item {Physics depends on only one dimensionless parameter:}\\
+\begin{center}
+{\color{darkred}
+\framebox[1.1\width]{
+Opacity: $\hat{\gamma} = \gamma R^{\frac{3}{4}} (\varepsilon_0 \tau_0)^{\frac{1}{4}}=R/l_{mfp}$
+}
+}
+\end{center}
+\\
+\begin{center}
+{\tiny  {\color{teablue} Kurkela, Wiedemann and BW,
+  %``Kinetic transport is needed to reliably extract shear viscosity from pA and AA data,''
+  Phys.\ Lett.\ B {\bf 783}, 274 (2018), [arXiv:1803.02072].
+  }
+  }
+\end{center}
+%\item {CKT and IS hydro with (conformal EOS) have the same hydro pole.}
+\vspace{1mm}
+\item {The transport coefficients:}
+$
+\frac{\eta}{s} = \frac{1}{5}\frac{T}{\gamma \varepsilon^\frac{1}{4}}.
+$
+%\item {CFT interpolates free-streaming ($\hat{\gamma}\to 0$) and ideal hydro ($\hat{\gamma}\to\infty$)}
+%\item {\color{darkred}For $\tau_\pi = \frac{1}{\gamma \varepsilon^\frac{1}{4}}$, IS non-hydro pole degrades into a branch cut in CKT.}
+\end{enumerate}
+\end{frame}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -932,7 +988,7 @@ $Q(t,r) =  \sqrt{  \frac{ \left( T_{\rm kin}- T_{\rm hyd} \right)^{\mu\nu}   \le
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 \begin{frame}{\bf\huge How Much "Fluid" is CKT?}
-\setcounter{page}{18}
+\setcounter{page}{17}
 \vspace{4mm}
 \begin{center}
 \begin{overpic}[width=1\textwidth]{fig/Q1Q}
@@ -952,7 +1008,7 @@ $Q(t,r) =  \sqrt{  \frac{ \left( T_{\rm kin}- T_{\rm hyd} \right)^{\mu\nu}   \le
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 \begin{frame}{\bf\huge How Much "Fluid" is CKT?}
-\setcounter{page}{18}
+\setcounter{page}{17}
 \vspace{4mm}
 \begin{center}
 \begin{overpic}[width=1\textwidth]{fig/Q12}
@@ -972,7 +1028,7 @@ $Q(t,r) =  \sqrt{  \frac{ \left( T_{\rm kin}- T_{\rm hyd} \right)^{\mu\nu}   \le
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 \begin{frame}{\bf\huge How Much "Fluid" is CKT?}
-\setcounter{page}{18}
+\setcounter{page}{17}
 \vspace{4mm}
 \begin{center}
 \begin{overpic}[width=1\textwidth]{fig/Q12Q}
@@ -1006,52 +1062,52 @@ $Q(t,r) =  \sqrt{  \frac{ \left( T_{\rm kin}- T_{\rm hyd} \right)^{\mu\nu}   \le
 % %  }
 % \end{center}
 % \end{frame}
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}{\bf\huge Measurement of Opacity}
-%\setcounter{page}{16}
-\vspace{4mm}
-\begin{center}
-\begin{overpic}[width=0.6\textwidth]{fig/v2ALICEvsKinThTeV5gamma}
-%\put (10, 60){\color{darkred}a loose constraint: $\frac{\eta}{s}\in (2-4)/(4\pi)$}
-\end{overpic}\\
-{\tiny  GGMLO: {\color{teablue} Giacalone, Guerrero-Rodríguez, Luzum, Marquet \& Ollitrault,
-  %``New paradigm for fluctuations in heavy-ion collisions,''
-  arXiv:1902.07168.
-  }
-  }
-\end{center}
-\begin{enumerate}
-\item {Definition: \color{teablue}\framebox[0.5\textwidth]{$\hat{\gamma}\equiv \gamma R (\varepsilon_0\tau_0/R)^\frac{1}{4}=\frac{0.11}{\eta/s} \left(\frac{R {\color{darkred} \frac{dE_\perp}{d\eta_s}}}{\pi f_{work}(\hat{\gamma})}\right)^\frac{1}{4}$}}\\
-\vspace{2mm}
-\item {Conformal scaling property:}
-{\color{teablue}\framebox[0.35\textwidth]{$\left.\frac{v_2}{\epsilon_2}\right|_{\hat{\gamma}<1}\propto\left( R {\color{darkred}\langle p_\perp\rangle \frac{dN}{d\eta_s}}\right)^\frac{1}{4}$}
-}
-\end{enumerate}
-\end{frame}
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}{\bf\huge Confronting AA Data}
-\vspace{4mm}
-\begin{center}
-\begin{overpic}[width=\textwidth]{fig/GhatVScentPbPb502TeV}
-%\put (20, 46){\color{darkred}$\Leftrightarrow$  evaluate $\hat{\gamma}$ from measurements!}
-\end{overpic}
-\end{center}
-\vspace{2mm}
-\begin{center}
-{\color{black}($v_2$ gives a loose constraint on $4 \pi \frac{\eta}{s}\in (2, 4)$}.)
-\end{center}
-\vspace{6mm}
-{{\LARGE\bf\color{darkred} Flow in (central) AA collisions is of hydro origin.}}
-\vspace{6mm}
-\begin{center}
-{{\color{teablue}For details, cf. Urs' Talk}
-}
-\end{center}
-\end{frame}
+% %
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %
+% \begin{frame}{\bf\huge Measurement of Opacity}
+% %\setcounter{page}{16}
+% \vspace{4mm}
+% \begin{center}
+% \begin{overpic}[width=0.6\textwidth]{fig/v2ALICEvsKinThTeV5gamma}
+% %\put (10, 60){\color{darkred}a loose constraint: $\frac{\eta}{s}\in (2-4)/(4\pi)$}
+% \end{overpic}\\
+% {\tiny  GGMLO: {\color{teablue} Giacalone, Guerrero-Rodríguez, Luzum, Marquet \& Ollitrault,
+%   %``New paradigm for fluctuations in heavy-ion collisions,''
+%   arXiv:1902.07168.
+%   }
+%   }
+% \end{center}
+% \begin{enumerate}
+% \item {Definition: \color{teablue}\framebox[0.5\textwidth]{$\hat{\gamma}\equiv \gamma R (\varepsilon_0\tau_0/R)^\frac{1}{4}=\frac{0.11}{\eta/s} \left(\frac{R {\color{darkred} \frac{dE_\perp}{d\eta_s}}}{\pi f_{work}(\hat{\gamma})}\right)^\frac{1}{4}$}}\\
+% \vspace{2mm}
+% \item {Conformal scaling property:}
+% {\color{teablue}\framebox[0.35\textwidth]{$\left.\frac{v_2}{\epsilon_2}\right|_{\hat{\gamma}<1}\propto\left( R {\color{darkred}\langle p_\perp\rangle \frac{dN}{d\eta_s}}\right)^\frac{1}{4}$}
+% }
+% \end{enumerate}
+% \end{frame}
+% %
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %
+% \begin{frame}{\bf\huge Confronting AA Data}
+% \vspace{4mm}
+% \begin{center}
+% \begin{overpic}[width=\textwidth]{fig/GhatVScentPbPb502TeV}
+% %\put (20, 46){\color{darkred}$\Leftrightarrow$  evaluate $\hat{\gamma}$ from measurements!}
+% \end{overpic}
+% \end{center}
+% \vspace{2mm}
+% \begin{center}
+% {\color{black}($v_2$ gives a loose constraint on $4 \pi \frac{\eta}{s}\in (2, 4)$}.)
+% \end{center}
+% \vspace{6mm}
+% {{\LARGE\bf\color{darkred} Flow in (central) AA collisions is of hydro origin.}}
+% \vspace{6mm}
+% \begin{center}
+% {{\color{teablue}For details, cf. Urs' Talk}
+% }
+% \end{center}
+% \end{frame}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -1069,8 +1125,11 @@ Flow in pA collisions mostly has a non-hydro origin because bulk matter is mostl
 }}
 \vspace{6mm}
 \begin{center}
-{{\color{teablue}For details, cf. Urs' Talk}
-}
+{\tiny  {\color{teablue} Kurkela, Wiedemann and BW, arXiv:1905.05139.
+%doi:10.1088/1126-6708/2008/04/100
+%[arXiv:0712.2451].
+  }
+  }
 \end{center}
 \end{frame}
 %
@@ -1080,31 +1139,30 @@ Flow in pA collisions mostly has a non-hydro origin because bulk matter is mostl
 \setcounter{page}{0}
 \vspace{4mm}
 %\begin{enumerate}
-{\color{teablue}1.} {\color{darkred}Probing inner workings of QGP $\Leftrightarrow$ going beyond hydrodynamics.}\\
-\vspace{4mm}
-{\color{teablue}2.} {\color{darkred} The strategy to do so is as follows:}\\
+{\color{teablue}1.} {\color{darkred}For large systems:}\\
+\vspace{2mm}
+\begin{enumerate}
+    \item[$\checkmark$]{The bottom-up thermalization is supported by more detailed calculations.}
+    \vspace{2mm}
+    \item[$\checkmark$]{The soft gluon radiation from jets with $t_f\lesssim \tau$ look like the static case.}
+    \vspace{2mm}
+    \item[$$\ding{55}$$]{The transition from classical fields to quasi-particles in sub-diagrams?}
+\end{enumerate}
+\vspace{2mm}
+{\color{teablue}2.} {\color{darkred} For small systems:}\\
+\vspace{2mm}
+\begin{enumerate}
+    \item[$\checkmark$]{Non-hydro modes, which dominates at early time, also contribute to flow.}
+    \vspace{2mm}
+    \item[$\checkmark$]{Interplay between hydro and non-hydro modes can be studied (in CKT).}
+    \vspace{2mm}
+    \item[$$\ding{55}$$]{Put the bottom-up thermalization to the test?}
+    \vspace{2mm}
+    \item[$$\ding{55}$$]{jet quenching?}
+\end{enumerate}
+
 \vspace{2mm}
 %\end{enumerate}
-\begin{center}
-\includegraphics[width=0.6\textwidth]{fig/goal}
-\end{center}
-\end{frame}
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\begin{frame}{\bf\huge Conclusions}
-\setcounter{page}{0}
-\vspace{2mm}
-{\color{teablue}3.} {\color{darkred}The CKT implements the same hydro as IS hydro with a physically motivated non-hydro sector. And we find}\\
-\vspace{2mm}
-\begin{center}
-\includegraphics[width=0.4\textwidth]{fig/PbPb}\hspace{0.1\textwidth}\includegraphics[width=0.4\textwidth]{fig/pPb}
-\end{center}
-\vspace{2mm}
-And for small systems: {\color{darkred}\framebox[0.4\textwidth]{$\left.\frac{v_2}{\epsilon_2}\right|_{\hat{\gamma}<1}\propto\hat{\gamma}\propto\left( R \langle p_\perp\rangle \frac{dN}{d\eta_s}\right)^\frac{1}{4}$}
-}\\
-\vspace{4mm}
-{\color{teablue}4.} {\color{darkred} The strategy provides a general approach \& implementation in all theories beyond hydro is most welcome.}
 \end{frame}
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
